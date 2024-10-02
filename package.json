@@ -1,0 +1,13 @@
+{
+  "name": "githooks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Irakoze Aimé Aubin <irakozeaimeaubin@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^9.1.6"
+  },
+  "scripts": {
+    "prepare": "husky"
+  }
+}
