@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Regular expression for the commit message pattern
-commit_regex='^([a-z]+)(\([a-z]+\))?: [A-Z].*$'
+commit_regex='^([a-z]+)(\([a-z]+\))?: [a-z].*$'
 
 # Read the commit message from the file
 commit_message=$(cat "$1")
